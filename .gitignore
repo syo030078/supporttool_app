@@ -24,6 +24,7 @@ vendor/bundle
 !/storage/.keep
 
 /public/assets
+/public/uploads/
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
@@ -36,3 +37,12 @@ vendor/bundle
 yarn-debug.log*
 .yarn-integrity
 config/secrets.yml
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore iCloud placeholders
+*.icloud
+
+# Ignore VSCode local history
+.history/
