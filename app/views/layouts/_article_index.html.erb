@@ -16,13 +16,24 @@
                 <div class="article_title">
                   <div class="title_name">
                     <%= link_to item_list.list_name , item_list_path(item_list) %>
-                  </div>    
+                  </div>
                 </div> 
                 <div class="artcle_user_info">
                   <div class="user_box">
                     <div class="user_box_top_name">
-                        <div class="user_name"><span><%= item_list.user.name %></span></div>
-                        <div class="user_job_name"><%= @category.name %></div>
+                        <div class="user_name">
+                          <span>
+                            <% if item_list.user.present? %>
+                              <%= item_list.user.name %>
+                            <% else %>
+                              不明なユーザー
+                            <% end %>
+                          </span>
+                        </div>
+                        <!-- カテゴリ機能をオフにするため、以下の行をコメントアウトまたは削除 -->
+                        <% if @category.present? %>
+                          <div class="user_job_name"><%= @category.name %></div>
+                        <% end %>
                     </div> 
                   </div>
                 </div>
