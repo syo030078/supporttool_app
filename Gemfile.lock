@@ -419,6 +419,7 @@ DEPENDENCIES
   mini_magick
   mysql2 (>= 0.4.4)
   nio4r (= 2.5.9)
+  nokogiri (>= 1.15.5)
   pry-byebug
   pry-rails
   psych (~> 3.0)

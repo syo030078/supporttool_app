@@ -5,7 +5,9 @@ ruby '3.1.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'nio4r', '2.5.9'
+gem 'nokogiri', '>= 1.15.5'
 gem 'rails', '6.1.5'
+
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.4.4'
 # Use Puma as the app server
