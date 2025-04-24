@@ -4,6 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.1.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'nio4r', '2.5.9'
 gem 'rails', '6.1.5'
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.4.4'
@@ -88,4 +89,4 @@ gem 'acts-as-taggable-on'
 
 gem 'sassc'
 
-gem "psych", "~> 3.0"
+gem 'psych', '~> 3.0'
