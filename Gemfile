@@ -2,11 +2,12 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.1.3'
+gem 'concurrent-ruby', '= 1.3.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'nio4r', '2.5.9'
 gem 'nokogiri', '>= 1.15.5'
-gem 'rails', '6.1.5'
+gem 'rails', '~> 6.1.7'
 
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.4.4'
@@ -51,8 +52,8 @@ group :development do
   gem 'dotenv-rails'
   gem 'pry-byebug'
   gem 'rubocop', require: false
-  gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  # gem 'spring'
+  # gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
 group :test do
