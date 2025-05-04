@@ -26,7 +26,7 @@
         }
         #user_name {
         background: $card-font-color;
-        display: block; 
+        display: block;
         width: 94%;
         margin: 7px 0px 19px;
         padding: 18px 0px 18px 22px;
@@ -38,7 +38,7 @@
         }
         #user_email {
         border: none;
-        display: block; 
+        display: block;
         width: 94%;
         border-radius: 8px;
         margin: 7px 0px 19px;
@@ -50,7 +50,7 @@
 
         #user_password {
         border: none;
-        display: block; 
+        display: block;
         width: 94%;
         border-radius: 8px;
         margin: 7px 0px 19px;
@@ -61,14 +61,14 @@
         }
         #user_password_confirmation {
         border: none;
-        display: block; 
+        display: block;
         width: 94%;
-        border-radius: 8px;   
+        border-radius: 8px;
         margin: 7px 0px 19px;
         padding: 18px 0px 18px 22px;
         background: $base-color;
         filter: brightness(108%);
-        font-family: 'M PLUS Rounded 1c', sans-serif;   
+        font-family: 'M PLUS Rounded 1c', sans-serif;
         }
         .signup_submit{
             display: block;
@@ -127,7 +127,7 @@
         text-align: left;
         padding: 20px 0px 40px;
         background-size: 250px 250px;
-        height: 300px;  
+        height: 300px;
         .checker_word_top {
             padding: 1px;
             margin: 0px 80px 0px 53px ;
@@ -169,12 +169,12 @@
             vertical-align: middle;
             border: none;
             border-radius: 40px;
-            padding: 5px 40px 5px 80px; 
-            margin: 0px 80px 0px 53px; 
+            padding: 5px 40px 5px 80px;
+            margin: 0px 80px 0px 53px;
             &:hover {
                 filter: brightness(110%);
                 transition: 0.2s;
-            } 
+            }
             span {
                 display: block;
                 font-size: 27px;
@@ -190,7 +190,7 @@
                 font-size: 20px;
                 margin: 11px 15px;
                 color: $submit-font-color;
-            }          
+            }
         }
     }
 }
@@ -222,7 +222,7 @@
         padding: 20px 0px 0px 0px;
         margin: 0 auto;
     }
-    
+
 }
 .user_favorites {
     p {
@@ -236,7 +236,7 @@
 
 /* smartPhone */
 @media screen and (max-width: 600px) {
-    .toppage_login { 
+    .toppage_login {
         padding: 20px 0px;
         margin: 20px 0px 0px 0px;
         .face_box {
@@ -246,7 +246,7 @@
             margin: 20px 0px 0px 30px;
         }
         .article_index_title_box {
-            
+
             margin: 70px 0px 30px;
         }
         p.article_index_category_name {
@@ -259,7 +259,7 @@
             ul.article_index_wrap {
                 width: 100%;
                 justify-content: center;
-                li {  
+                li {
                     width: 150px;
                     padding: 0;
                     .article_topimg {
@@ -277,7 +277,7 @@
                                 margin: 0;
                                 .title_name {
                                     margin: 0px 13px 0px 0px;
-                                    a { 
+                                    a {
                                         font-size: 13px;
                                         margin: 0;
                                         height: 40px;
@@ -286,7 +286,7 @@
                                         -webkit-line-clamp: 3;
                                         -webkit-box-orient: vertical;
                                         overflow: hidden;
-                                    
+
                                         /*IE対策*/
                                         line-height: 1.5em;
                                         max-height: 4.5em;
@@ -298,7 +298,7 @@
                             }
 
                         }
-                        
+
                     }
                 }
                 li:nth-child(odd) {
@@ -314,7 +314,7 @@
             ul.article_index_wrap {
                 width: 100%;
                 justify-content: center;
-                li {  
+                li {
                     width: 150px;
                     padding: 0;
                     .article_topimg {
@@ -332,7 +332,7 @@
                                 margin: 0;
                                 .title_name {
                                     margin: 0px 13px 0px 0px;
-                                    a { 
+                                    a {
                                         font-size: 13px;
                                         margin: 0;
                                         height: 40px;
@@ -341,7 +341,7 @@
                                         -webkit-line-clamp: 3;
                                         -webkit-box-orient: vertical;
                                         overflow: hidden;
-                                    
+
                                         /*IE対策*/
                                         line-height: 1.5em;
                                         max-height: 4.5em;
@@ -353,7 +353,7 @@
                             }
 
                         }
-                        
+
                     }
                 }
                 li:nth-child(odd) {
@@ -372,7 +372,7 @@
         .logout_toppage {
             padding: 0px 20px;
         }
-        
+
     }
 }
 

@@ -30,7 +30,7 @@ nav {
                     position: relative;
                     bottom: 55px;
                     font-weight: bold;
-                }  
+                }
             }
             a {
                 text-decoration: none;
@@ -40,15 +40,15 @@ nav {
                 }
                 p {
                     font-family: 'M PLUS Rounded 1c', sans-serif;
-                    margin: 0; 
+                    margin: 0;
                     text-align: center;
                     font-size: 4px;
                     color: $main-dark-sub-font-color;
                 }
-                
+
             }
-            
-            
+
+
         }
     }
 }
@@ -58,7 +58,7 @@ nav {
 @media screen and (max-width: 600px) {
     nav {
         ul.bottom_menu {
-        } 
+        }
     }
 }
 

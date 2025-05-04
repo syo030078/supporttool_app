@@ -24,7 +24,7 @@
             margin: 0px auto;
             padding: 0px 0px 26px 0px;
             text-align: center;
-            
+
         }
         .wrap_formhead_username {
             margin: 0px 0px 0px 5px;
@@ -130,9 +130,9 @@
                 font-size: 14px;
                 text-align: left;
                 margin-left: 3px;
-                color: $font-color;   
+                color: $font-color;
             }
-            #item_list_list_stressor { 
+            #item_list_list_stressor {
                 width: 95%;
                 padding: 17px 0px 17px 12px;
                 margin: 6px 19px 4px 0px;
@@ -143,15 +143,15 @@
                 filter: brightness(108%);
                 border-radius: 14px;
                 font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
-            } 
+            }
             .item_list_label_name {
                 display: block;
                 font-size: 14px;
                 text-align: left;
                 margin-left: 3px;
-                color: $font-color;   
+                color: $font-color;
             }
-            #item_list_list_name { 
+            #item_list_list_name {
                 width: 95%;
                 padding: 17px 0px 17px 12px;
                 margin: 6px 19px 4px 0px;
@@ -161,8 +161,8 @@
                 border-radius: 14px;
                 background: $main-white-color;
                 font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
-            }  
-            #item_list_list_description { 
+            }
+            #item_list_list_description {
                 width: 95%;
                 padding: 12px 0px 150px 12px;
                 margin: 6px 19px 16px 0px;
@@ -175,7 +175,7 @@
                 background: $main-white-color;
                 border-radius: 14px;
                 font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
-            } 
+            }
             .form_categories {
                 text-align: left;
                 margin: 0px 0px 10px 0px;
@@ -216,7 +216,7 @@
                     font-weight: 400;
                 }
             }
-            
+
         }
     }
     #Form1 {
@@ -242,14 +242,14 @@
 /* デザインC(PC) */
 @media screen and (max-width: 960px)  {
     /* PC用レイアウト 960px以上の範囲に収めるデザインはこの中に記述 */
-    
+
 }
 
 /* デザインB（タブレット） */
 @media screen and (max-width: 600px) {
     /* タブレット用レイアウト 600px以上の範囲に収めるデザインはこの中に記述 */
     .item_list_new {
-        
+
         padding: 0;
         margin: 30px 10px 0px 10px;
         .wrap_formhead {
@@ -259,7 +259,7 @@
         }
         form {
             .item_type_wrap {
-                width: 100%; 
+                width: 100%;
                 input#item_list_list_name {
                     width: 90%;
                     margin: 0;
@@ -271,7 +271,7 @@
                         margin: 5px;
                     }
                 }
-                
+
             }
             textarea#item_list_list_description {
                 width: 90%;
