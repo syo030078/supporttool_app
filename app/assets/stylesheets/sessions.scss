@@ -3,14 +3,14 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 @import "_variables";
 
-.loginform {    
+.loginform {
     width: 330px;
-    height: 220px; 
+    height: 220px;
     margin: 50px auto;
     padding: 25px 60px 140px;
     border-radius: 8px;
     background-color: #f0efef;
-    border: none;            
+    border: none;
     h1 {
         color: $font-color;
         font-size: 41px;
@@ -69,7 +69,7 @@
             }
             input.login_submit {
                 display: block;
-                border: none;        
+                border: none;
                 margin-left: auto;
                 text-align: center;
             }

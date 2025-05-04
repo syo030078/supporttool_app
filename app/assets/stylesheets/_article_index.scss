@@ -24,21 +24,21 @@
         li {
             background: $card-color;
             width: 270px;
-            margin: 0px 0px 45px 0px; 
-            padding: 0px 0px 20px; 
+            margin: 0px 0px 45px 0px;
+            padding: 0px 0px 20px;
             text-align: center;
             border-radius: 10px;
-            position: relative; 
+            position: relative;
             font-family: 'M PLUS Rounded 1c', sans-serif;
             filter: brightness(103%);
             box-shadow: 2px 2px 7px 0px rgba(146, 145, 145, 0.4);
-            .article_topimg {   
+            .article_topimg {
                 a {
                     display: block;
                     &:hover {
                         filter: brightness(90%);
-                    } 
-                    img {   
+                    }
+                    img {
                         border-radius: 7px 7px 0px 0px;
                         height: 230px;
                         max-width: 100%;
@@ -59,10 +59,10 @@
                         padding: 20px 50px 10px 30px;
                         .face_type_box {
                             display: flex;
-                            border-radius: 50%;                    
+                            border-radius: 50%;
                             margin: 0px;
                             width: 100px;
-                            .condition {   
+                            .condition {
                                 font-family: 'M PLUS Rounded 1c', sans-serif;
                                 color: $font-color;
                                 margin: 0;
@@ -83,7 +83,7 @@
                 }
                 .article_word_box_right {
                     margin: 0px 0px 0px 7px;
-                    .article_title {   
+                    .article_title {
                         margin: 0px 9px 0px 8px;
                         width: 280px;
                         height: 40px;
@@ -97,14 +97,14 @@
                                 line-height: 1.5em;
                                 font-size: 18.5px;
                                 font-weight: 700;
-                                display: block;    
+                                display: block;
                                 text-decoration: none;
                                 text-align: justify;
                                 text-overflow: ellipsis;
                                 letter-spacing: -0.04em;
                                 z-index: 1;
                             }
-                        }        
+                        }
                     }
                     .artcle_user_info {
                         display: flex;
@@ -156,11 +156,11 @@
                                         margin: 0px 0px 0px 0px;
                                     }
                                 }
-                            }                                
-                        }  
+                            }
+                        }
                     }
                 }
-                
+
             }
         }
     }
