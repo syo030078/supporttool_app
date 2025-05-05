@@ -16,19 +16,19 @@
                 <div class="article_title">
                   <div class="title_name">
                     <%= link_to item_list.list_name , item_list_path(item_list) %>
-                  </div>    
-                </div> 
+                  </div>
+                </div>
                 <div class="artcle_user_info">
                   <div class="user_box">
                     <div class="user_box_top_name">
-                        <div class="user_name"><span><%= item_list.user.name %></span></div>
-                        <div class="user_job_name"><%= @category.name %></div>
-                    </div> 
+                        <div class="user_name"><span><%= item_list.user&.name || "未設定" %></span></div>
+                        <div class="user_job_name"><%= @category&.name || "未設定" %></div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>   
+            </div>
           </li>
         <% end %>
-      </ul> 
+      </ul>
     </div>

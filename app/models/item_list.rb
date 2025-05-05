@@ -1,6 +1,6 @@
 class ItemList < ApplicationRecord
   belongs_to :user
-  
+
   # 複数カテゴリ
   has_many :item_list_category_relations
   has_many :categories, through: :item_list_category_relations
@@ -14,6 +14,6 @@ class ItemList < ApplicationRecord
 
   mount_uploader :image, ItemListImgUploader
 
-  has_many :items, dependent: :destroy  
+  has_many :items, dependent: :destroy
   # has_many :users, through: :favorites
 end

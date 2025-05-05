@@ -7,7 +7,7 @@ container コンテンツを囲むボックス
   <div class= toppage_login>
     <% if logged_in? %>
 
-      <p>毎日の体調キロク</p>
+      <p>キロク</p>
       <div class="cheackin">
         <p class="confirm_the_date">
         <%= Time.now.strftime("%m/%d(#{%w(日 月 火 水 木 金 土)[Time.now.wday]})") %>
@@ -79,7 +79,7 @@ container コンテンツを囲むボックス
       -->
 
       <div class="box_user_weekly_condition_visual">
-        <p>今週の体調変化</p>
+        <p>今週の変化</p>
 
         <div class="condition_visual">
           <canvas id="weekly_condition_charts"></canvas>
@@ -176,7 +176,7 @@ container コンテンツを囲むボックス
         <p class="heading_selfcare_card">セルフケア・カード</p>
         <div class="category_name">
           <% @categories.each do |category| %>
-            <%= link_to category.name, root_path(category_id: category.id) %>
+            <%= link_to category.name || "未設定" , root_path(category_id: category.id) %>
           <% end %>
         </div>
       </div>
