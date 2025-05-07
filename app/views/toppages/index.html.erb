@@ -9,11 +9,12 @@ container コンテンツを囲むボックス
 
       <p>キロク</p>
       <div class="cheackin">
+        <!--
         <p class="confirm_the_date">
         <%= Time.now.strftime("%m/%d(#{%w(日 月 火 水 木 金 土)[Time.now.wday]})") %>
         </p>
 
-        <!--
+
         <p class="confirm_the_week">
           <%= Time.now.strftime("%d(#{%w(日 月 火 水 木 金 土)[Time.now.wday]})") %>
             <% if pp current_user.emotions.where('created_at like?', Date.today) %>
@@ -59,7 +60,6 @@ container コンテンツを囲むボックス
             ✖︎
             <% end %>
         </p>
-        -->
 
         <p>今日のキロク</p>
         <%= link_to new_emotion_path , { class: 'checker_submit' } do %>
@@ -71,12 +71,14 @@ container コンテンツを囲むボックス
             <p>ナイトチェック</p>
         <% end %>
       </div>
-      <!--
+
+
+
       <p class="title_selfcare_routine">最近取り入れたルーティーン</p>
       <p class="sample_title">■ とにかく早く、20時に寝る</p>
       <p class="sample_title">■ 無理に無理を重ねない</p>
       <p class="sample_title">■ 趣味が合う人とあう</p>
-      -->
+
 
       <div class="box_user_weekly_condition_visual">
         <p>今週の変化</p>
@@ -155,6 +157,9 @@ container コンテンツを囲むボックス
           </script>
         </div>
       </div>
+
+
+
       <div class="qa_wrap_use_smartphone">
         <div class="qa_title_use_smartphone">デジタル疲労を計測</div>
 
@@ -167,6 +172,8 @@ container コンテンツを囲むボックス
           <% end %>
         </div>
       </div>
+      -->
+
       <!--
       リリース後に追加候補
       <div class="my_relax_list">
