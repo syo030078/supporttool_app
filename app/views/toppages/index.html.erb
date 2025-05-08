@@ -7,7 +7,7 @@ container コンテンツを囲むボックス
   <div class= toppage_login>
     <% if logged_in? %>
 
-      <p>キロク</p>
+      <p></p>
       <div class="cheackin">
         <!--
         <p class="confirm_the_date">
@@ -202,7 +202,7 @@ container コンテンツを囲むボックス
             <%= form_with(url: login_path, scope: :session, local: true) do |f| %>
               <%= f.hidden_field :email, value: "testuser@testuser.com" %>
               <%= f.hidden_field :password, value: "testuser" %>
-              <%= f.submit "ストレスフリーになる"%>
+              <%= f.submit "ログイン"%>
             <% end %>
           </div>
         </div>
