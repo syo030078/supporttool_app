@@ -7,7 +7,7 @@
             <div class="nav_img">
               <%= image_tag "nav_logo.png" %>
             </div>
-            <p>mindlog<span style="font-weight:500; font-size:24px; color:#334461;"> β版</span></p>
+            <p>ツールログ</p>
           <% end %>
         </div>
         <div class="nav_book">
@@ -23,13 +23,13 @@
             <div class="nav_img">
               <%= image_tag "nav_logo.png" %>
             </div>
-            <p>mindlog<span style="font-weight:500; font-size:24px; color:#334461;"> β版</span><span style="font-weight:500; font-size:20px; color:#334461;"> &emsp;webワーカーのための、体調キロクサービス　</span></p>
+            <p>ツールログ</p>
           <% end %>
         </div>
       <% end %>
     </ul>
 
-    
+
     <ul class= menu_right>
       <% if logged_in? %>
         <div class="plus_box">
@@ -42,7 +42,7 @@
           <li>
             <a href=""><span class="material-icons">account_circle</span></a>
             <ul>
-              <li><%= link_to 'プロフィール', user_path(current_user) , { class: 'profile' }%></li> 
+              <li><%= link_to 'プロフィール', user_path(current_user) , { class: 'profile' }%></li>
               <li>
                 <%= link_to logout_path, { method: :delete, class: "logout" } do %>
                   <%= image_tag asset_path("logout.png") %>
