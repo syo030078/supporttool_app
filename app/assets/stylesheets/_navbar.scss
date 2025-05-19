@@ -6,7 +6,7 @@ header {
     top: 0;
     z-index: 10000;
     background-size: contain;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: $font-family-base;
 }
 
 nav {
@@ -38,8 +38,8 @@ nav {
             }
         }
         p {
-            font-family: 'M PLUS Rounded 1c', sans-serif;
-            transform:rotateZ(0.03deg);
+            font-family: $font-family-heading;
+            transform: rotateZ(0.03deg);
             line-height: 1.5em;
             font-weight: bold;
             font-size: 25px;
@@ -108,8 +108,8 @@ nav {
                 // }
 
                 .plus_itemlist {
-                    font-family: 'M PLUS Rounded 1c', sans-serif;
-                    transform:rotateZ(0.03deg);
+                    font-family: $font-family-base;
+                    transform: rotateZ(0.03deg);
                     background: $accent-color;
                     white-space: nowrap;
                     text-decoration: none;
@@ -215,7 +215,7 @@ nav {
         display: none;
     }
     .menu ul.active {
-        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+        font-family: $font-family-base;
         display: block;
         position: fixed;
         padding: 0;
@@ -232,7 +232,7 @@ nav {
                 padding: 20px 0px 20px 40px;
                 width: 200px;
                 z-index: 30;
-                font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+                font-family: $font-family-base;
                 margin: 0;
                 color: $font-color;
                 font-size: 19px;
@@ -259,7 +259,7 @@ nav {
                     margin: 0px 10px 0px 0px;
                 }
                 p {
-                    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+                    font-family: $font-family-base;
                     margin: 0;
                     color: $font-color;
                     font-size: 19px;

@@ -4,16 +4,16 @@
 @import "_variables";
 
 .toppage_login {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: $font-family-base;
     padding: 0;
     .cheackin {
         margin: 10px 45px 150px;
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: $font-family-base;
         height: 320px;
         border-radius: 14px;
         padding: 30px 35px 35px;
         p {
-            font-family: 'M PLUS Rounded 1c', sans-serif;
+            font-family: $font-family-base;
             font-size: 20px;
             span {
                 position: relative;
@@ -21,14 +21,14 @@
             }
         }
         p.confirm_the_date {
-            font-family: 'M PLUS Rounded 1c', sans-serif;
+            font-family: $font-family-base;
             font-weight: bold;
             margin: 0px 0px 20px;
             font-size: 30px;
         }
         p.confirm_the_week {
             font-size: 14px;
-            font-family: 'M PLUS Rounded 1c', sans-serif;
+            font-family: $font-family-base;
             font-weight: 700;
             margin: 20px 0px 50px;
 
@@ -51,7 +51,7 @@
             }
             p {
                 font-size: 16px;
-                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-family: $font-family-base;
                 font-weight: 700;
                 color: $main-white-font-color;
             }
@@ -62,12 +62,12 @@
         }
     }
     p.title_selfcare_routine {
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: $font-family-base;
         font-size: 20px;
         margin: 0px 0px 0px 50px;
     }
     p.sample_title {
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: $font-family-base;
         font-size: 18px;
         margin: 0px 0px 0px 50px;
 
@@ -147,7 +147,7 @@
     .box_user_weekly_condition_visual {
         p {
             margin: 50px 50px 20px;
-            font-family: 'M PLUS Rounded 1c', sans-serif;
+            font-family: $font-family-base;
             font-size: 20px;
         }
         .condition_visual {
@@ -177,7 +177,7 @@
                 margin: 20px 50px 200px;
                 background-color: #4F76B1;
                 border-radius: 12px;
-                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-family: $font-family-base;
                 font-size: 17px;
                 width: 160px;
                 height: 200px;
@@ -195,7 +195,7 @@
         font-size: 35px;
         font-weight: 600;
         padding: 0px 40px 30px 45px;
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: $font-family-heading;
         margin: 70px auto 0px;
         display: flex;
         width: 860px;
@@ -205,7 +205,7 @@
 
 
 .toppage_logout {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: $font-family-base;
     .logout_image {
         height: 520px;
         padding: 0px;
@@ -222,13 +222,13 @@
         .logout_top_left_word {
             text-align: left;
             p.test_user {
-                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-family: $font-family-base;
                 font-size: 24px;
                 margin: 0;
                 color: $font-color;
             }
             h1 {
-                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-family: $font-family-heading;
                 transform:rotateZ(0.03deg);
                 font-size: 55px;
                 margin: 70px 0px 22px;
@@ -246,7 +246,7 @@
                 }
             }
             p.middle {
-                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-family: $font-family-base;
                 transform:rotateZ(0.03deg);
                 font-size: 17px;
                 text-decoration: none;
@@ -270,13 +270,13 @@
                 .test_login {
                     form {
                         text-align: center;
-                        font-family: 'M PLUS Rounded 1c', sans-serif;
+                        font-family: $font-family-base;
                         transform:rotateZ(0.03deg);
                         &:hover {
                             filter: brightness(110%);
                         }
                         input {
-                            font-family: 'M PLUS Rounded 1c', sans-serif;
+                            font-family: $font-family-base;
                             transform:rotateZ(0.03deg);
                             color: $submit-font-color;
                             background: $accent-color;
@@ -453,7 +453,7 @@
         margin: 0px 44px 80px 51px;
         border-radius: 20px;
         .checker_word {
-            font-family: 'M PLUS Rounded 1c', sans-serif;
+            font-family: $font-family-base;
             text-align: left;
             padding: 20px 0px 40px;
             background-size: 250px 250px;
@@ -465,7 +465,7 @@
                 color: $font-color;
                 letter-spacing: -0.05em;
                 white-space: nowrap;
-                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-family: $font-family-base;
                 img {
                     height: 35px;
                     position: relative;
@@ -489,7 +489,7 @@
                 letter-spacing: -0.05em;
             }
             a.checker_submit {
-                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-family: $font-family-base;
                 display: flex;
                 text-align-last: center;
                 text-decoration: none;
@@ -517,7 +517,7 @@
                     color: $submit-font-color;
                 }
                 p {
-                    font-family: 'M PLUS Rounded 1c', sans-serif;
+                    font-family: $font-family-base;
                     font-weight: 700;
                     font-size: 20px;
                     margin: 11px 15px;
@@ -550,7 +550,7 @@
             margin: 1px 3px 0px 0px;
         }
         p {
-            font-family: 'M PLUS Rounded 1c', sans-serif;
+            font-family: $font-family-base;
             margin: 0px 0px 0px 0px;
             padding: 0px 0px 0px 0px;
             font-size: 31px;
@@ -582,10 +582,10 @@
                     p.top {
                         margin: 0px;
                         font-size: 30px;
-                        font-family: 'M PLUS Rounded 1c', sans-serif;
+                        font-family: $font-family-base;
                     }
                     p.bottom {
-                        font-family: 'M PLUS Rounded 1c', sans-serif;
+                        font-family: $font-family-base;
                         margin: 10px 0px;
                         font-size: 18px;
                         font-weight: 300;
@@ -593,7 +593,7 @@
                 }
                 .checker_submit {
                     a.checker_submit {
-                        font-family: 'M PLUS Rounded 1c', sans-serif;
+                        font-family: $font-family-base;
                         display: flex;
                         text-align-last: center;
                         text-decoration: none;
@@ -621,7 +621,7 @@
                             color: $submit-font-color;
                         }
                         p {
-                            font-family: 'M PLUS Rounded 1c', sans-serif;
+                            font-family: $font-family-base;
                             font-weight: 700;
                             font-size: 18px;
                             margin: 11px 15px;
@@ -652,7 +652,7 @@
         font-size: 35px;
         font-weight: 600;
         padding: 90px 40px 30px 63px;
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: $font-family-heading;
         margin: 0px auto;
         display: flex;
         width: 860px;
@@ -663,7 +663,7 @@
     //     }
     .article_index {
         padding: 0px 40px 0px 40px;
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: $font-family-base;
         margin: 0px auto 100px;
         display: flex;
         width: 860px;
@@ -689,7 +689,7 @@
                 text-align: center;
                 border-radius: 10px;
                 position: relative;
-                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-family: $font-family-base;
                 filter: brightness(103%);
                 box-shadow: 2px 2px 7px 0px rgba(146, 145, 145, 0.4);
                 .article_topimg {
@@ -714,7 +714,7 @@
                 .article_word_box {
                     margin: 0px 7px 0px 7px;
                     min-height: 70px;
-                    font-family: 'M PLUS Rounded 1c', sans-serif;
+                    font-family: $font-family-base;
                     .article_word_box_left {
                         border-radius: 13px;
                         .article_face_type_category {
@@ -727,7 +727,7 @@
                                 margin: 0px;
                                 width: 100px;
                                 .condition {
-                                    font-family: 'M PLUS Rounded 1c', sans-serif;
+                                    font-family: $font-family-base;
                                     color: $font-color;
                                     margin: 0;
                                     margin: 10px 11px 0px 8px;
@@ -754,7 +754,7 @@
                             .title_name {
                                 a {
                                     height: 32px;
-                                    font-family: 'M PLUS Rounded 1c', sans-serif;
+                                    font-family: $font-family-base;
                                     margin: 10px 0px 10px 0px;
                                     max-width: 200px;
                                     color: $font-color;
@@ -787,7 +787,7 @@
                                     display: flex;
                                     .user_name {
                                         display: flex;
-                                        font-family: 'M PLUS Rounded 1c', sans-serif;
+                                        font-family: $font-family-base;
                                         text-align: left;
                                         color: $third-font-color;
                                         letter-spacing: 0.02em;
@@ -798,7 +798,7 @@
                                     .user_job_name {
                                         background: $accent-color;
                                         border-radius: 10px;
-                                        font-family: 'M PLUS Rounded 1c', sans-serif;
+                                        font-family: $font-family-base;
                                         font-size: 11px;
                                         padding: 2px 7px 2px 7px;
                                         color: #fafcfb;
@@ -808,7 +808,7 @@
                                 }
                                 .user_box_top_time {
                                     .user_create_time {
-                                        font-family: 'M PLUS Rounded 1c', sans-serif;
+                                        font-family: $font-family-base;
                                         text-align: left;
                                         color: $third-font-color;
                                         letter-spacing: 0.01em;
@@ -867,11 +867,11 @@
             padding: 0;
             margin: 0px 0px;
             display: block;
-            font-family: 'M PLUS Rounded 1c', sans-serif;
+            font-family: $font-family-base;
             transform:rotateZ(0.03deg);
             .top_first_advertise {
                 text-align: center;
-                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-family: $font-family-base;
                 transform:rotateZ(0.03deg);
             }
             .logout_top_left_word {
