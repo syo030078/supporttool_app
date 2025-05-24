@@ -1,4 +1,4 @@
-# Note: You must restart bin/webpack-dev-server for changes to take effect
+c# Note: You must restart bin/webpack-dev-server for changes to take effect
 
 default: &default
   source_path: app/javascript
@@ -61,9 +61,8 @@ development:
     host: localhost
     port: 3035
     public: localhost:3035
-    hmr: false
+    hmr: true
     # Inline should be set to true if using HMR
-    inline: true
     overlay: true
     compress: true
     disable_host_check: true
@@ -71,10 +70,9 @@ development:
     quiet: false
     pretty: false
     headers:
-      'Access-Control-Allow-Origin': '*'
+      "Access-Control-Allow-Origin": "*"
     watch_options:
-      ignored: '**/node_modules/**'
-
+      ignored: "**/node_modules/**"
 
 test:
   <<: *default
