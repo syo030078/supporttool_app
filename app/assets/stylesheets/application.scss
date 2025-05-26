@@ -17,11 +17,12 @@
  @import "_variables";
 
  body {
-    height: 100%;
-    margin: 0px;
-    background: $base-color;
-    p, a, label ,input {
-        font-family: 'M PLUS Rounded 1c', sans-serif;
-        transform:rotateZ(0.03deg);
-    }
+  height: 100%;
+  margin: 0;
+  background: var(--base-color, $base-color);
+  
+  p, a, label, input {
+    font-family: system-ui, -apple-system, 'M PLUS Rounded 1c', sans-serif;
+    transform: rotateZ(0.03deg);
+  }
 }
