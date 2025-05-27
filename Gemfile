@@ -5,6 +5,7 @@ ruby '3.1.3'
 gem 'concurrent-ruby', '= 1.3.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'dotenv-rails', groups: %i[development test]
 gem 'nio4r', '2.5.9'
 gem 'nokogiri', '>= 1.15.5'
 gem 'rails', '~> 6.1.7'
