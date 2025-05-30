@@ -14,7 +14,7 @@
     h1 {
         color: $font-color;
         font-size: 41px;
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: $font-family-base;
     }
     #session_email {
         border-radius: 8px;
@@ -24,7 +24,7 @@
         margin: 2px 0px 16px;
         padding: 18px 0px 18px 22px;
         filter: brightness(108%);
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: $font-family-base;
     }
     #session_password {
         border-radius: 8px;
@@ -35,7 +35,7 @@
         padding: 18px 0px 18px 22px;
         background: $base-color;
         filter: brightness(108%);
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: $font-family-base;
     }
     .login_submit{
         display: block;

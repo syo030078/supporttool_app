@@ -48,9 +48,13 @@ $mood_select_hover-color:#a8cddb;
 // ===== グラフ =====
 $weekly_condition_charts: #f1824a;
 
-$font-family-base: 'Noto Sans JP', 'Roboto', sans-serif;
-$font-family-heading: 'Noto Sans JP', sans-serif;
-$font-family-body: 'Roboto', sans-serif;
+// ビジネスフォントスタック
+$font-family-base: 'Noto Sans JP', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+$font-family-heading: 'Noto Sans JP', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+$font-family-body: 'Noto Sans JP', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+
+// モノスペースフォント
+$font-family-monospace: 'Anonymous Pro', monospace;
 
 
 

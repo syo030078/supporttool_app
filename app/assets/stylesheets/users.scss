@@ -12,7 +12,7 @@
     margin: 60px auto ;
     color: $font_color;
     padding: 35px 40px;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: $font-family-base;
     font-weight: 200;
     background-color: #F0EFEF;
     border-radius: 8px;
@@ -34,7 +34,7 @@
         border: none;
         background: $base-color;
         filter: brightness(108%);
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: $font-family-base;
         }
         #user_email {
         border: none;
@@ -45,7 +45,7 @@
         padding: 18px 0px 18px 22px;
         background: $base-color;
         filter: brightness(108%);
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: $font-family-base;
         }
 
         #user_password {
@@ -57,7 +57,7 @@
         padding: 18px 0px 18px 22px;
         background: $base-color;
         filter: brightness(108%);
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: $font-family-base;
         }
         #user_password_confirmation {
         border: none;
@@ -68,7 +68,7 @@
         padding: 18px 0px 18px 22px;
         background: $base-color;
         filter: brightness(108%);
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: $font-family-base;
         }
         .signup_submit{
             display: block;
@@ -79,7 +79,7 @@
             font-weight: bold;
             font-size: 16px;
             border: none;
-            font-family: 'M PLUS Rounded 1c', sans-serif;
+            font-family: $font-family-base;
             border-radius: 50px;
             margin-left: auto;
             &:hover {
@@ -99,7 +99,7 @@
       margin: 1px 3px 0px 0px;
   }
   p {
-      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+    font-family: $font-family-base;
       margin: 0px 0px 0px 8px;
       padding: 0px 0px 0px 0px;
       font-size: 20px;
@@ -111,7 +111,7 @@
     font-size: 35px;
     font-weight: 600;
     padding: 0px 40px 30px 40px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: $font-family-base;
     margin: 0px auto;
     display: flex;
     width: 860px;
@@ -123,7 +123,7 @@
     margin: 0px 44px 80px 51px;
     border-radius: 20px;
     .checker_word {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: $font-family-base;
         text-align: left;
         padding: 20px 0px 40px;
         background-size: 250px 250px;
@@ -185,7 +185,7 @@
                 color: $submit-font-color;
             }
             p {
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-family: $font-family-base;
                 font-weight: 700;
                 font-size: 20px;
                 margin: 11px 15px;
@@ -199,7 +199,7 @@
     margin: 0px;
     text-align: center;
     font-size: 45px;
-    font-family: 'Anonymous Pro', monospace;
+    font-family: $font-family-base;
     p {
         font-family: 'Anonymous Pro', monospace;
         background-color: $sub-accent_color;
@@ -212,7 +212,7 @@
         background-color: #fff;
     }
     .myplan {
-        font-family: 'Anonymous Pro', monospace;
+        font-family: $font-family-base;
         background-color: #fff;
         width: 300px;
         height: 150px;
@@ -226,7 +226,7 @@
 }
 .user_favorites {
     p {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: $font-family-base;
         text-align: left;
         font-size: 20px;
         margin: 30px 0px 0px 42px;

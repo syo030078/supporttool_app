@@ -38,7 +38,7 @@ nav {
             }
         }
         p {
-            font-family: $font-family-heading;
+            font-family: $font-family-heading; // ヘッディング用フォントスタック
             transform: rotateZ(0.03deg);
             line-height: 1.5em;
             font-weight: bold;
@@ -90,7 +90,7 @@ nav {
             li {
                 margin: 0px 10px 0px 0px;
                 // a.plus {
-                //     font-family: 'M PLUS Rounded 1c', sans-serif;
+                //     font-family: $font-family-base;
                 //     transform:rotateZ(0.03deg);
                 //     text-decoration: none;
                 //     vertical-align: middle;

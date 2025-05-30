@@ -8,7 +8,7 @@
         border-radius: 8px;
         box-shadow: 5px 5px 11px #d9d3c3,
                     -5px -5px 11px #fffde9;
-        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+        font-family: $font-family-base;
         h1 {
             position: relative;
             left: 10px;
@@ -34,7 +34,7 @@
     padding: 0px 0px 0px;
     border-radius: 5px;
     h1 {
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: $font-family-base;
         transform:rotateZ(0.03deg);
         font-size: 28px;
         font-weight: bold;
@@ -49,7 +49,7 @@
         width: 450px;
         margin: 0px auto;
         p.emotion_first_qa {
-            font-family: 'M PLUS Rounded 1c', sans-serif;
+            font-family: $font-family-base;
             transform:rotateZ(0.03deg);
             margin: 0px 0px;
             background:$card-color;
@@ -65,10 +65,10 @@
         }
         .emotion_type_wrap {
             margin-left: 0px;
-            font-family: 'M PLUS Rounded 1c', sans-serif;
+            font-family: $font-family-base;
             transform:rotateZ(0.03deg);
             p.name_select_morning_emotion {
-                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-family: $font-family-base;
                 transform:rotateZ(0.03deg);
                 text-align: left;
                 margin: 0px 0px 2px 19px;
@@ -113,7 +113,7 @@
         }
         .rest_type_wrap {
             .name_box_select_night_smartphone{
-                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-family: $font-family-base;
                 transform:rotateZ(0.03deg);
                 text-align: left;
                 margin: 0px 0px 0px 14px;
@@ -124,7 +124,7 @@
             .cheack_box_rest {
                 color: $main-dark-sub-font-color;
                 margin: 23px 0px 0px 12px;
-                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-family: $font-family-base;
                 transform:rotateZ(0.03deg);
                 input[type=radio]{
                     display: none;
@@ -145,7 +145,7 @@
         }
         .before_sleep_type_wrap{
             .name_box_select_night_smartphone {
-                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-family: $font-family-base;
                 transform:rotateZ(0.03deg);
                 text-align: left;
                 margin: 20px 0px 0px 15px;
@@ -154,7 +154,7 @@
                 color: $main-dark-sub-font-color;
             }
             .cheack_box_before_sleep {
-                font-family: 'M PLUS Rounded 1c', sans-serif;
+                font-family: $font-family-base;
                 transform:rotateZ(0.03deg);
                 margin: 23px 0px 0px 15px;
                 color: $main-dark-sub-font-color;
@@ -185,7 +185,7 @@
         border-radius: 6px;
         border: none;
         outline: none;
-        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+        font-family: $font-family-base;
     }
     .submit{
         text-align: right;
@@ -197,7 +197,7 @@
         color: $submit-font-color;
         font-weight: bold;
         font-size: 16px;
-        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+        font-family: $font-family-base;
         &:hover {
             filter: brightness(110%);
           }

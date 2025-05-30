@@ -7,7 +7,7 @@
 
 p {
     color: $font-color;
-    font-family: 'sans-serif';
+    font-family: $font-family-base;
 }
 
 .item_list_index {
@@ -28,7 +28,7 @@ p {
             font-size: 16px;
             letter-spacing: -0.01em;
             line-height: 3em;
-            font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+            font-family: $font-family-base;
             position: relative;
             left: 37px;
             background: #f6f7f8;
@@ -59,7 +59,7 @@ p {
         }
     }
     p {
-        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+        font-family: $font-family-base;
         margin: 65px 0px 0px 40px;
         padding: 0px 0px 0px 0px;
         font-size: 25px;
@@ -78,7 +78,7 @@ p {
         margin: 110px 0px　0px 0px;
         padding: 15px 40px 30px;
         background: $card-color;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: $font-family-base;
         border-radius: 15px;
         .item_list_name_wrap {
             display: flex;
@@ -133,7 +133,7 @@ p {
 
         }
         p.list_description {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-family: $font-family-base;
             white-space: pre-wrap;
             margin: 40px 0px;
             padding: 0px 3px 20px;
@@ -188,7 +188,7 @@ p {
             }
         }
         p.item_list_itmes {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-family: $font-family-base;
             font-size: 35px;
             font-weight: 500;
             padding: 0px 0px 13px 0px;
@@ -230,7 +230,7 @@ p {
         width: 280px;
         height: 95px;
         background: $card-color;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: $font-family-base;
         border-radius: 15px;
         margin: 0px 0px 0px 30px;
         .box-right-condition {
@@ -268,7 +268,7 @@ p {
         //             width: 200px;
         //             height: 48px;
         //             border-radius: 4px;
-        //             font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+        //             font-family: $font-family-base;
         //         }
         //         #item_item_name {
         //             padding: 9px 7px;
@@ -279,7 +279,7 @@ p {
         //             width: 200px;
         //             height: 48px;
         //             border-radius: 4px;
-        //             font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+        //             font-family: $font-family-base;
         //         }
         //         .addproducts_img_label {
         //             height: 48px;
@@ -299,7 +299,7 @@ p {
         //             margin: auto 5px;
         //             padding: 0px 12px 0px 10px;
         //             border-radius: 4px 4px 4px 4px;
-        //             font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+        //             font-family: $font-family-base;
         //         }
         //         .submit{
         //             width: 200px;
@@ -308,7 +308,7 @@ p {
         //                     filter: brightness(110%);
         //                   }
         //             .submit_plus {
-        //                 font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+        //                 font-family: $font-family-base;
         //                 text-align: right;
         //                 margin: 0px 0px 0px 0px;
         //                 padding: 0px 0px 0px 12px;
@@ -323,7 +323,7 @@ p {
         //                 line-height: 1.4em;
         //             }
         //             .addproductst_submit {
-        //                 font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+        //                 font-family: $font-family-base;
         //                 text-align: left;
         //                 height: 48px;
         //                 font-size: 18px;
@@ -358,7 +358,7 @@ p {
     padding: 15px 50px;
     width: 770px;
     border-radius: 4px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: $font-family-base;
     .wrap_formhead {
         width: 575px;
         display: flex;
@@ -395,7 +395,7 @@ p {
         color: rgb(223, 221, 221);
         .item_type_wrap {
             width: 748px;
-            font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+            font-family: $font-family-base;
             p {
                 text-align: left;
                 color: $font-color;
@@ -445,7 +445,7 @@ p {
             background: $base-color;
             filter: brightness(105%);
             box-shadow: inset 4px 4px 10px #c3c9d0,inset -4px -4px 10px #ffffff;
-            font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+            font-family: $font-family-base;
         }
         #item_list_list_description {
             width: 95%;
@@ -458,7 +458,7 @@ p {
             background: $base-color;
             filter: brightness(105%);
             box-shadow: inset 4px 4px 10px #c3c9d0,inset -4px -4px 10px #ffffff;
-            font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+            font-family: $font-family-base;
         }
         .wrap {
             display: flex;
@@ -491,7 +491,7 @@ p {
                 font-size: 18px;
                 padding: 0px 12px 26px 8px;
                 border-radius: 0px 4px 4px 0px;
-                font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+                font-family: $font-family-base;
                 font-weight: 400;
             }
         }
@@ -504,7 +504,7 @@ p {
                 font-size: 17px;
                 font-weight: bold;
                 margin: 0px 19px 0px 0px;
-                font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+                font-family: $font-family-base;
                 border-radius: 40px;
                 background: linear-gradient(145deg, #41d75a, #37b54c);
                 box-shadow:  5px 5px 7px #afb4bb,-5px -5px 4px #ffffff;
