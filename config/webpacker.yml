@@ -1,4 +1,4 @@
-c# Note: You must restart bin/webpack-dev-server for changes to take effect
+# Note: You must restart bin/webpack-dev-server for changes to take effect
 
 default: &default
   source_path: app/javascript
@@ -53,7 +53,7 @@ development:
   compile: true
 
   # Verifies that correct packages and versions are installed by inspecting package.json, yarn.lock, and node_modules
-  check_yarn_integrity: true
+  check_yarn_integrity: false
 
   # Reference: https://webpack.js.org/configuration/dev-server/
   dev_server:
@@ -61,8 +61,9 @@ development:
     host: localhost
     port: 3035
     public: localhost:3035
-    hmr: true
+    hmr: false
     # Inline should be set to true if using HMR
+    inline: true
     overlay: true
     compress: true
     disable_host_check: true

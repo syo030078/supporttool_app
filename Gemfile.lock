@@ -104,8 +104,6 @@ GEM
       dotenv (= 3.1.8)
       railties (>= 6.1)
     erubi (1.13.1)
-    excon (1.2.7)
-      logger
     factory_bot (6.5.2)
       activesupport (>= 6.1.0)
     factory_bot_rails (6.4.4)
@@ -140,23 +138,6 @@ GEM
     faraday-rack (1.0.0)
     faraday-retry (1.0.3)
     ffi (1.17.2-x86_64-darwin)
-    fog-aws (3.32.0)
-      base64 (~> 0.2.0)
-      fog-core (~> 2.6)
-      fog-json (~> 1.1)
-      fog-xml (~> 0.1)
-    fog-core (2.6.0)
-      builder
-      excon (~> 1.0)
-      formatador (>= 0.2, < 2.0)
-      mime-types
-    fog-json (1.2.0)
-      fog-core
-      multi_json (~> 1.10)
-    fog-xml (0.1.5)
-      fog-core
-      nokogiri (>= 1.5.11, < 2.0.0)
-    formatador (1.1.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
     groupdate (6.4.0)
@@ -190,10 +171,6 @@ GEM
     marcel (1.0.4)
     matrix (0.4.2)
     method_source (1.1.0)
-    mime-types (3.7.0)
-      logger
-      mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2025.0527)
     mini_magick (5.2.0)
       benchmark
       logger
@@ -209,7 +186,6 @@ GEM
       faraday-cookie_jar (~> 0.0.6)
       ms_rest (~> 0.7.6)
     msgpack (1.8.0)
-    multi_json (1.15.0)
     multipart-post (2.4.1)
     mysql2 (0.5.6)
     net-imap (0.5.8)
@@ -331,6 +307,11 @@ GEM
       logger
     ruby2_keywords (0.0.5)
     rubyzip (2.4.1)
+    sass (3.7.4)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
@@ -407,7 +388,6 @@ DEPENDENCIES
   dotenv-rails
   factory_bot_rails
   faker (~> 2.8)
-  fog-aws
   groupdate
   jbuilder (~> 2.7)
   listen (~> 3.2)
@@ -426,6 +406,7 @@ DEPENDENCIES
   rspec-rails (~> 4.0.1)
   rspec_junit_formatter
   rubocop
+  sass
   sass-rails (>= 6)
   sassc
   selenium-webdriver
