@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_action :require_user_logged_in, only: [:show]
-  
+
   def index
     # @item_lists = ItemList.all.order(created_at: :desc)
 
@@ -15,8 +15,8 @@ class UsersController < ApplicationController
     # fovoriteモデルから現在ユーザーのitem_list_idを取得
     user_favorites = Favorite.where(user_id: current_user.id).order(created_at: :desc).pluck(:item_list_id)
     #　上記item_list_idから、ログイン・ユーザーのお気に入りitem_listsを取得　
-    @favorite_list = ItemList.find(user_favorites) 
-     
+    @favorite_list = ItemList.find(user_favorites)
+
     # @likes = ItemList.find(favorites)
   end
 
@@ -28,6 +28,7 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
 
     if @user.save
+      session[:user_id] = @user.id
       flash[:success] = 'ユーザを登録しました。'
       redirect_to root_url
     else
@@ -38,9 +39,9 @@ class UsersController < ApplicationController
 
   def favorites
     @category = Category.all
-    # redirect_to root_path unless current_user.id 
+    # redirect_to root_path unless current_user.id
     favorites = Favorite.where(user_id: current_user.id).order(created_at: :desc).pluck(:item_list_id)
-    @favorite_list = ItemList.find(favorites)  
+    @favorite_list = ItemList.find(favorites)
     @item_lists = current_user.item_lists.all
   end
 
