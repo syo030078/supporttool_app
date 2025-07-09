@@ -10,7 +10,8 @@ class ItemList < ApplicationRecord
   has_many :likes, dependent: :destroy
 
   validates :list_name, presence: true, length: { maximum: 50 }
-  validates :list_item_type, presence: true, length: { maximum: 50 }
+  # list_item_typeの必須バリデーションを削除
+  # validates :list_item_type, presence: true, length: { maximum: 50 }
 
   mount_uploader :image, ItemListImgUploader
 
