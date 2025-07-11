@@ -9,6 +9,7 @@ container コンテンツを囲むボックス
 
       <p></p>
       <div class="cheackin">
+
         <!--
         <p class="confirm_the_date">
         <%= Time.now.strftime("%m/%d(#{%w(日 月 火 水 木 金 土)[Time.now.wday]})") %>
@@ -190,13 +191,14 @@ container コンテンツを囲むボックス
       <%= render 'layouts/article_index' %>
     <% end %>
     -->
+    <%= render 'item_lists/form' %>
   </div>
 <% else %>
   <div class="toppage_logout">
     <div class="logout_image">
       <div class ="logout_top_left_word">
-      <h1 class="top">Plus log</h1>
-        <p class="middle" style="font-size:01.2em;" >taskの優先順位を記録<br></p>
+      <h1 class="top">MetaStruct</h1>
+        <p class="middle" style="font-size:01.2em;" >未来の選択を軽く、判断を深く<br></p>
         <div class="box_login">
           <div class="test_login">
             <%= form_with(url: login_path, scope: :session, local: true) do |f| %>
