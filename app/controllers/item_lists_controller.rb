@@ -3,6 +3,7 @@ class ItemListsController < ApplicationController
   before_action :correct_user, only: %i[edit update destroy]
 
   def index
+
   end
 
   def show
