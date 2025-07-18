@@ -144,7 +144,7 @@
                 border-radius: 14px;
                 font-family: $font-family-base;
             }
-            .item_list_label_name {
+            .item_list_label_name  {
                 display: block;
                 font-size: 14px;
                 text-align: left;
@@ -152,6 +152,17 @@
                 color: $font-color;
             }
             #item_list_list_name {
+                width: 95%;
+                padding: 17px 0px 17px 12px;
+                margin: 6px 19px 4px 0px;
+                border-radius: 4px;
+                border: none;
+                outline: none;
+                border-radius: 14px;
+                background: $main-white-color;
+                font-family: $font-family-base;
+            }
+            #item_list_purpose {
                 width: 95%;
                 padding: 17px 0px 17px 12px;
                 margin: 6px 19px 4px 0px;
