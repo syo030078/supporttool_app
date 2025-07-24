@@ -1,12 +1,12 @@
 <div class="form_container">
   <%= form_with(model: @item_list, local: true) do |f| %>
     <div class="simple_form">
-      <%= f.label :list_name, 'タスク名', {class: 'item_list_label_name'} %>
-      <%= f.text_field :list_name %>
       <%= f.label :purpose, '目的', {class: 'item_list_label_name'} %>
       <%= f.text_field :purpose %>
-      <%= f.label :structure, '構造', class: 'item_list_label_name' %>
-      <%= f.text_field :structure %>
+      <%= f.label :constraint, '制約', class: 'item_list_label_name' %>
+      <%= f.text_field :constraint %>
+      <%= f.label :option Z Z, '選択肢', class: 'item_list_label_name' %>
+      <%= f.text_field :option %>
 
       <div class="btn_box">
         <%= button_tag type: :submit, class: "item_list_submit" do %>
@@ -17,7 +17,7 @@
   <% end %>
 </div>
 
-
+<%# 「目的」「制約」「選択肢」 %>
 
 
 
