@@ -6,7 +6,7 @@
     height: 100%;
     margin: 30px auto;
     padding: 15px 50px;
-    width: 770px;
+    width: 370px;
     border-radius: 4px;
     font-family: $font-family-base;
     .step_row{
@@ -18,12 +18,12 @@
     }
     .wrap_formhead {
         p {
-            font-size: 23px;
-            font-weight: bold;
-            color: $font-color;
-            margin: 0px auto;
-            padding: 0px 0px 26px 0px;
-            text-align: center;
+            // font-size: 23px;
+            // font-weight: bold;
+            // color: $font-color;
+            // margin: 0px auto;
+            // padding: 0px 0px 26px 0px;
+            // text-align: center;
 
         }
         .wrap_formhead_username {
@@ -127,9 +127,9 @@
             }
             .item_list_label_stressor {
                 display: block;
-                font-size: 14px;
-                text-align: left;
-                margin-left: 3px;
+                // font-size: 14px;
+                // text-align: left;
+                // margin-left: 3px;
                 color: $font-color;
             }
             #item_list_list_stressor {
@@ -146,9 +146,9 @@
             }
             .item_list_label_name  {
                 display: block;
-                font-size: 14px;
-                text-align: left;
-                margin-left: 3px;
+                // font-size: 14px;
+                // text-align: left;
+                // margin-left: 3px;
                 color: $font-color;
             }
             #item_list_list_name {
@@ -163,15 +163,15 @@
                 font-family: $font-family-base;
             }
             #item_list_purpose {
-                width: 95%;
-                padding: 17px 0px 17px 12px;
-                margin: 6px 19px 4px 0px;
-                border-radius: 4px;
-                border: none;
-                outline: none;
-                border-radius: 14px;
-                background: $main-white-color;
-                font-family: $font-family-base;
+                // width: 95%;
+                // padding: 17px 0px 17px 12px;
+                // margin: 6px 19px 4px 0px;
+                // border-radius: 4px;
+                // border: none;
+                // outline: none;
+                // border-radius: 14px;
+                // background: $main-white-color;
+                // font-family: $font-family-base;
             }
             #item_list_list_description {
                 width: 95%;
