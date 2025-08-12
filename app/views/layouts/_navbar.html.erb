@@ -43,7 +43,7 @@
             <ul>
               <li><%= link_to 'プロフィール', user_path(current_user) , { class: 'profile' }%></li>
               <li>
-                <%= link_to logout_path, { method: :delete, class: "logout" } do %>
+                <%= button_to logout_path, method: :delete, class: "logout", style: "background: none; border: none; cursor: pointer;" do %>
                   <%= image_tag asset_path("logout.png") %>
                   <p>Logout</p>
                 <% end %>
