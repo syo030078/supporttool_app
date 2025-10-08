@@ -38,8 +38,8 @@ class EmotionsController < ApplicationController
     require 'uri'
     require 'json'
 
-    subscription_key = 'a9938c3fe7814070b389e67cff1120c6'
-    endpoint = 'https://syomiyata.cognitiveservices.azure.com/'
+    subscription_key = ENV.fetch('AZURE_SUBSCRIPTION_KEY')
+    endpoint = ENV.fetch('AZURE_ENDPOINT', 'https://syomiyata.cognitiveservices.azure.com/')
 
     path = '/text/analytics/v3.0/sentiment'
 
