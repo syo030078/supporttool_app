@@ -57,7 +57,7 @@ class ItemListsController < ApplicationController
 
   # Strong Parameter
   def item_list_params
-    params.require(:item_list).permit(:list_name)
+    params.require(:item_list).permit(:list_name, :image, :list_description, :list_item_type, :list_stressor, category_ids: [])
   end
 
   def correct_user
