@@ -14,7 +14,7 @@ class UsersController < ApplicationController
 
     # fovoriteモデルから現在ユーザーのitem_list_idを取得
     user_favorites = Favorite.where(user_id: current_user.id).order(created_at: :desc).pluck(:item_list_id)
-    #　上記item_list_idから、ログイン・ユーザーのお気に入りitem_listsを取得　
+    # 　上記item_list_idから、ログイン・ユーザーのお気に入りitem_listsを取得
     @favorite_list = ItemList.find(user_favorites)
 
     # @likes = ItemList.find(favorites)

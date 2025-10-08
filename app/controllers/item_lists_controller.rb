@@ -2,9 +2,7 @@ class ItemListsController < ApplicationController
   before_action :require_user_logged_in, only: %i[create edit update destroy]
   before_action :correct_user, only: %i[edit update destroy]
 
-  def index
-
-  end
+  def index; end
 
   def show
     @item_list = ItemList.find(params[:id])
@@ -57,7 +55,8 @@ class ItemListsController < ApplicationController
 
   # Strong Parameter
   def item_list_params
-    params.require(:item_list).permit(:list_name, :image, :list_description, :list_item_type, :list_stressor, category_ids: [])
+    params.require(:item_list).permit(:list_name, :image, :list_description, :list_item_type, :list_stressor,
+                                      category_ids: [])
   end
 
   def correct_user
