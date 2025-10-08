@@ -23,8 +23,9 @@ class SessionsController < ApplicationController
 
   def login(email, password)
     @user = User.find_by(email: email)
-    if @user && @user.authenticate(password)
-      # ログイン成功　 session[:user_id] = @user.id によって、ブラウザには Cookie として、サーバには Session として、ログイン状態が維持されることになります。
+    if @user&.authenticate(password)
+      # ログイン成功　セッション固定攻撃を防ぐためにセッションIDを再生成
+      reset_session
       session[:user_id] = @user.id
       true
     else
